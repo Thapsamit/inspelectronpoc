@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://vjs.zencdn.net/8.6.1/video-js.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Video player</h1>
+    <video
+      id="my-video"
+      class="video-js"
+      controls
+      preload="auto"
+      width="640"
+      height="264"
+      data-setup="{}"
+      data-vjs-player
+      data-dashjs-player
+    ></video>
+    <script src="https://vjs.zencdn.net/8.6.1/video.min.js"></script>
+    <script src="../node_modules/videojs-contrib-eme/dist/videojs-contrib-eme.js"></script>
+    <script src="../node_modules/dashjs/dist/dash.all.min.js"></script>
+    <script src="../node_modules/videojs-contrib-dash/dist/videojs-dash.min.js"></script>
+
+    <script src="js/videojsscript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "insppocelectron",
+  "productName": "insp poc electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "npx electronmon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dashjs": "^4.7.2",
+    "videojs-contrib-dash": "^5.1.1",
+    "videojs-contrib-eme": "^3.11.1"
+  },
+  "devDependencies": {
+    "electron": "github:castlabs/electron-releases#v27.0.0+wvcus"
+  }
+}
